@@ -29,10 +29,8 @@ p {
 form {
   display:flex;
   flex-direction: column;
-  gap: 30px;
-  border: 5px solid rgb(206, 32, 32);
-  border-radius: 25px;
-  padding: 15px;
+  border: 5px solid gray;
+  padding: 10px;
   
 }
 form label {
@@ -52,11 +50,8 @@ form label {
   flex-direction: column;
   gap: 30px;
   padding: 15px;
-  border: 10px solid #0e0101;
-  border-radius: 25px;
   height: 100%;
   width: 100%;
-
 }
 
 #avatar {
@@ -67,6 +62,7 @@ form label {
   padding: 10px;
   font-size: 18px;
 }
+
 #city{
   padding: 10px;
   font-size: 18px;
@@ -74,12 +70,23 @@ form label {
 .form-input-control {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 30px;
+  padding: 15px;
   font-size: 18px; 
+  width: 100%;
+
   
 }
+.form-group-horizontal-control {
+  display: flex;
+  width: 100%;
+}
 
+.form-submit-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
 a {
   color: #335eea;
